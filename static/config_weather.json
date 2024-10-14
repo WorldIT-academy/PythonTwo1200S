@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 34.9833,
+        "lat": 48.45
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 284.94,
+        "feels_like": 283.95,
+        "temp_min": 284.94,
+        "temp_max": 284.94,
+        "pressure": 1016,
+        "humidity": 68,
+        "sea_level": 1016,
+        "grnd_level": 1005
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.27,
+        "deg": 264,
+        "gust": 3.47
+    },
+    "clouds": {
+        "all": 84
+    },
+    "dt": 1728921121,
+    "sys": {
+        "country": "UA",
+        "sunrise": 1728878308,
+        "sunset": 1728917593
+    },
+    "timezone": 10800,
+    "id": 709930,
+    "name": "Dnipro",
+    "cod": 200
+}
