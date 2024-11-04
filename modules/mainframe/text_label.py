@@ -15,7 +15,7 @@ class CityCurrent(customtkinter.CTkFrame):
             **kwargs
         )
         # 
-        self.pack(anchor= 'center', expand=True)
+        self.pack(anchor= 'center', expand=True, pady = 10)
         self.CONFIG_WEATHER = read_json(name_file= config_weather)
         #
         self.CURRENT_POSITION = customtkinter.CTkLabel(
@@ -40,11 +40,14 @@ class CityCurrent(customtkinter.CTkFrame):
             font= ("Arial", 50, "bold"),
         )
         self.TEMP.place(x= 160, y= 8)
+
 #
 city_name = read_json(name_file= "config_api.json")['city_name']
 #
-city_frame = CityCurrent(
-    master= scrollable_frame, 
-    name_city= city_name, 
-    config_weather= 'config_weather.json'
+
+for el in range(10):
+    city_frame = CityCurrent(
+        master= scrollable_frame, 
+        name_city= city_name, 
+        config_weather= 'config_weather.json',
 )
